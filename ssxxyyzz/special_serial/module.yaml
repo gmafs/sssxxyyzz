@@ -1,0 +1,8 @@
+module_name: Special serial driver
+module_description: Driver for special serial device no need other configurations. they are set internally.
+serial_config:
+    - command: special_serial start -d ${SERIAL_DEV}
+      port_config_param:
+        name: SPECIAL_SER_CFG
+        group: Serial
+
