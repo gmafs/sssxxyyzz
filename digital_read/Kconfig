@@ -1,0 +1,5 @@
+menuconfig DRIVERS_DIGITAL_READ
+	bool "digital_read"
+	default n
+	---help---
+		Enable support for digital_read
